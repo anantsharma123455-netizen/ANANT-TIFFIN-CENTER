@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta charset="UTF-8" />
+<title></title>
+
+<style type="text/css">
+.Normal {
+margin:1.0pt;
+margin-top:1.0pt;
+margin-bottom:1.0pt;
+margin-left:0.0pt;
+margin-right:0.0pt;
+text-indent:0.0pt;
+font-family:"Times New Roman";
+font-size:10.0pt;
+color:Black;
+font-weight:normal;
+border:none;
+}
+h1 {
+margin:1.0pt;
+margin-top:12.0pt;
+margin-bottom:3.0pt;
+margin-left:0.0pt;
+margin-right:0.0pt;
+text-indent:0.0pt;
+font-family:"Arial";
+font-size:18.0pt;
+color:Black;
+font-weight:bold;
+border:none;
+}
+h2 {
+margin:1.0pt;
+margin-top:12.0pt;
+margin-bottom:3.0pt;
+margin-left:0.0pt;
+margin-right:0.0pt;
+text-indent:0.0pt;
+font-family:"Arial";
+font-size:16.0pt;
+color:Black;
+font-weight:bold;
+border:none;
+}
+h3 {
+margin:1.0pt;
+margin-top:12.0pt;
+margin-bottom:3.0pt;
+margin-left:0.0pt;
+margin-right:0.0pt;
+text-indent:0.0pt;
+font-family:"Arial";
+font-size:14.0pt;
+color:Black;
+font-weight:bold;
+border:none;
+}
+
+
+</style>
+</head>
+<body>
+<p class="Normal">DOCTYPE html&gt;</p>
+<p class="Normal">&lt;html lang=&quot;en&quot;&gt;</p>
+<p class="Normal">&lt;head&gt;</p>
+<p class="Normal">&#160;   &lt;meta charset=&quot;UTF-8&quot;&gt;</p>
+<p class="Normal">&#160;   &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;</p>
+<p class="Normal">&#160;   &lt;title&gt;ANANT TIFFIN CENTER - Bundi, Rajasthan&lt;/title&gt;</p>
+<p class="Normal">&#160;   &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css&quot;&gt;</p>
+<p class="Normal">&#160;   &lt;style&gt;</p>
+<p class="Normal">&#160;       :root {</p>
+<p class="Normal">&#160;           --primary-green: #2E8B57; /* Fresh green */</p>
+<p class="Normal">&#160;           --accent-orange: #FF8C42; /* Warm orange */</p>
+<p class="Normal">&#160;           --light-cream: #FFF8E7; /* Light cream */</p>
+<p class="Normal">&#160;           --text-dark: #333333;</p>
+<p class="Normal">&#160;           --white: #FFFFFF;</p>
+<p class="Normal">&#160;           --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       * {</p>
+<p class="Normal">&#160;           margin: 0;</p>
+<p class="Normal">&#160;           padding: 0;</p>
+<p class="Normal">&#160;           box-sizing: border-box;</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       body {</p>
+<p class="Normal">&#160;           font-family: &#39;Segoe UI&#39;, Tahoma, Geneva, Verdana, sans-serif;</p>
+<p class="Normal">&#160;           background-color: var(--light-cream);</p>
+<p class="Normal">&#160;           color: var(--text-dark);</p>
+<p class="Normal">&#160;           line-height: 1.7;</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       /* Header Styles */</p>
+<p class="Normal">&#160;       header {</p>
+<p class="Normal">&#160;           background: linear-gradient(rgba(46, 139, 87, 0.95), rgba(46, 139, 87, 0.85)), url(&#39;https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=1200&amp;q=80&#39;);</p>
+<p class="Normal">&#160;           background-size: cover;</p>
+<p class="Normal">&#160;           background-position: center;</p>
+<p class="Normal">&#160;           color: var(--white);</p>
+<p class="Normal">&#160;           padding: 1.5rem 1rem;</p>
+<p class="Normal">&#160;           text-align: center;</p>
+<p class="Normal">&#160;           box-shadow: var(--shadow);</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       .logo-container {</p>
+<p class="Normal">&#160;           display: flex;</p>
+<p class="Normal">&#160;           align-items: center;</p>
+<p class="Normal">&#160;           justify-content: center;</p>
+<p class="Normal">&#160;           margin-bottom: 1rem;</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       .logo {</p>
+<p class="Normal">&#160;           font-size: 2.8rem;</p>
+<p class="Normal">&#160;           margin-right: 1rem;</p>
+<p class="Normal">&#160;           color: var(--accent-orange);</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       .tagline {</p>
+<p class="Normal">&#160;           font-size: 1.1rem;</p>
+<p class="Normal">&#160;           margin-top: 0.5rem;</p>
+<p class="Normal">&#160;           font-style: italic;</p>
+<p class="Normal">&#160;           opacity: 0.95;</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       /* Navigation */</p>
+<p class="Normal">&#160;       nav {</p>
+<p class="Normal">&#160;           background-color: var(--primary-green);</p>
+<p class="Normal">&#160;           position: sticky;</p>
+<p class="Normal">&#160;           top: 0;</p>
+<p class="Normal">&#160;           z-index: 100;</p>
+<p class="Normal">&#160;           box-shadow: var(--shadow);</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       .nav-container {</p>
+<p class="Normal">&#160;           max-width: 1200px;</p>
+<p class="Normal">&#160;           margin: 0 auto;</p>
+<p class="Normal">&#160;           display: flex;</p>
+<p class="Normal">&#160;           justify-content: center;</p>
+<p class="Normal">&#160;           flex-wrap: wrap;</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       nav a {</p>
+<p class="Normal">&#160;           color: var(--white);</p>
+<p class="Normal">&#160;           text-decoration: none;</p>
+<p class="Normal">&#160;           padding: 1rem 1.5rem;</p>
+<p class="Normal">&#160;           font-weight: 600;</p>
+<p class="Normal">&#160;           transition: all 0.3s ease;</p>
+<p class="Normal">&#160;           display: inline-block;</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       nav a:hover {</p>
+<p class="Normal">&#160;           background-color: rgba(255, 255, 255, 0.15);</p>
+<p class="Normal">&#160;           transform: translateY(-2px);</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       /* Hero Section */</p>
+<p class="Normal">&#160;       .hero {</p>
+<p class="Normal">&#160;           background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(&#39;https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=1200&amp;q=80&#39;);</p>
+<p class="Normal">&#160;           background-size: cover;</p>
+<p class="Normal">&#160;           background-position: center;</p>
+<p class="Normal">&#160;           color: var(--white);</p>
+<p class="Normal">&#160;           text-align: center;</p>
+<p class="Normal">&#160;           padding: 5rem 1.5rem;</p>
+<p class="Normal">&#160;           margin-bottom: 2rem;</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       .hero h1 {</p>
+<p class="Normal">&#160;           font-size: 2.8rem;</p>
+<p class="Normal">&#160;           margin-bottom: 1.5rem;</p>
+<p class="Normal">&#160;           text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       .hero p {</p>
+<p class="Normal">&#160;           font-size: 1.3rem;</p>
+<p class="Normal">&#160;           margin-bottom: 1rem;</p>
+<p class="Normal">&#160;           max-width: 800px;</p>
+<p class="Normal">&#160;           margin-left: auto;</p>
+<p class="Normal">&#160;           margin-right: auto;</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       .hero-cta {</p>
+<p class="Normal">&#160;           display: inline-block;</p>
+<p class="Normal">&#160;           background-color: var(--accent-orange);</p>
+<p class="Normal">&#160;           color: var(--white);</p>
+<p class="Normal">&#160;           padding: 0.8rem 2rem;</p>
+<p class="Normal">&#160;           margin-top: 1.5rem;</p>
+<p class="Normal">&#160;           border-radius: 50px;</p>
+<p class="Normal">&#160;           text-decoration: none;</p>
+<p class="Normal">&#160;           font-weight: bold;</p>
+<p class="Normal">&#160;           font-size: 1.1rem;</p>
+<p class="Normal">&#160;           transition: all 0.3s ease;</p>
+<p class="Normal">&#160;           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       .hero-cta:hover {</p>
+<p class="Normal">&#160;           background-color: #FF7B2C;</p>
+<p class="Normal">&#160;           transform: translateY(-3px);</p>
+<p class="Normal">&#160;           box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       /* Section Styles */</p>
+<p class="Normal">&#160;       section {</p>
+<p class="Normal">&#160;           padding: 3rem 1.5rem;</p>
+<p class="Normal">&#160;           max-width: 1200px;</p>
+<p class="Normal">&#160;           margin: 0 auto;</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       section h2 {</p>
+<p class="Normal">&#160;           color: var(--primary-green);</p>
+<p class="Normal">&#160;           font-size: 2.2rem;</p>
+<p class="Normal">&#160;           margin-bottom: 1.5rem;</p>
+<p class="Normal">&#160;           text-align: center;</p>
+<p class="Normal">&#160;           position: relative;</p>
+<p class="Normal">&#160;           padding-bottom: 0.5rem;</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       section h2::after {</p>
+<p class="Normal">&#160;           content: &#39;&#39;;</p>
+<p class="Normal">&#160;           position: absolute;</p>
+<p class="Normal">&#160;           width: 80px;</p>
+<p class="Normal">&#160;           height: 4px;</p>
+<p class="Normal">&#160;           background-color: var(--accent-orange);</p>
+<p class="Normal">&#160;           bottom: 0;</p>
+<p class="Normal">&#160;           left: 50%;</p>
+<p class="Normal">&#160;           transform: translateX(-50%);</p>
+<p class="Normal">&#160;           border-radius: 2px;</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       /* About Section */</p>
+<p class="Normal">&#160;       .about-content {</p>
+<p class="Normal">&#160;           display: flex;</p>
+<p class="Normal">&#160;           flex-wrap: wrap;</p>
+<p class="Normal">&#160;           align-items: center;</p>
+<p class="Normal">&#160;           gap: 2rem;</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       .about-text {</p>
+<p class="Normal">&#160;           flex: 1;</p>
+<p class="Normal">&#160;           min-width: 300px;</p>
+<p class="Normal">&#160;           font-size: 1.1rem;</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       .about-image {</p>
+<p class="Normal">&#160;           flex: 1;</p>
+<p class="Normal">&#160;           min-width: 300px;</p>
+<p class="Normal">&#160;           border-radius: 10px;</p>
+<p class="Normal">&#160;           overflow: hidden;</p>
+<p class="Normal">&#160;           box-shadow: var(--shadow);</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       .about-image img {</p>
+<p class="Normal">&#160;           width: 100%;</p>
+<p class="Normal">&#160;           height: auto;</p>
+<p class="Normal">&#160;           display: block;</p>
+<p class="Normal">&#160;           transition: transform 0.5s ease;</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       .about-image img:hover {</p>
+<p class="Normal">&#160;           transform: scale(1.03);</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       /* Why Choose Us */</p>
+<p class="Normal">&#160;       .features {</p>
+<p class="Normal">&#160;           display: grid;</p>
+<p class="Normal">&#160;           grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));</p>
+<p class="Normal">&#160;           gap: 1.5rem;</p>
+<p class="Normal">&#160;           margin-top: 2rem;</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       .feature-card {</p>
+<p class="Normal">&#160;           background-color: var(--white);</p>
+<p class="Normal">&#160;           padding: 1.5rem;</p>
+<p class="Normal">&#160;           border-radius: 10px;</p>
+<p class="Normal">&#160;           box-shadow: var(--shadow);</p>
+<p class="Normal">&#160;           transition: transform 0.3s ease;</p>
+<p class="Normal">&#160;           text-align: center;</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       .feature-card:hover {</p>
+<p class="Normal">&#160;           transform: translateY(-5px);</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       .feature-icon {</p>
+<p class="Normal">&#160;           font-size: 2.5rem;</p>
+<p class="Normal">&#160;           color: var(--primary-green);</p>
+<p class="Normal">&#160;           margin-bottom: 1rem;</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       /* Menu Section */</p>
+<p class="Normal">&#160;       .menu-container {</p>
+<p class="Normal">&#160;           display: grid;</p>
+<p class="Normal">&#160;           grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));</p>
+<p class="Normal">&#160;           gap: 1.5rem;</p>
+<p class="Normal">&#160;           margin-top: 2rem;</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       .menu-card {</p>
+<p class="Normal">&#160;           background-color: var(--white);</p>
+<p class="Normal">&#160;           border-radius: 10px;</p>
+<p class="Normal">&#160;           overflow: hidden;</p>
+<p class="Normal">&#160;           box-shadow: var(--shadow);</p>
+<p class="Normal">&#160;           transition: all 0.3s ease;</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       .menu-card:hover {</p>
+<p class="Normal">&#160;           transform: translateY(-5px);</p>
+<p class="Normal">&#160;           box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       .menu-img {</p>
+<p class="Normal">&#160;           height: 180px;</p>
+<p class="Normal">&#160;           width: 100%;</p>
+<p class="Normal">&#160;           background-color: #f5f5f5;</p>
+<p class="Normal">&#160;           display: flex;</p>
+<p class="Normal">&#160;           align-items: center;</p>
+<p class="Normal">&#160;           justify-content: center;</p>
+<p class="Normal">&#160;           color: #777;</p>
+<p class="Normal">&#160;           font-size: 1.2rem;</p>
+<p class="Normal">&#160;           position: relative;</p>
+<p class="Normal">&#160;           overflow: hidden;</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       .menu-img::before {</p>
+<p class="Normal">&#160;           content: &#39;&#39;;</p>
+<p class="Normal">&#160;           position: absolute;</p>
+<p class="Normal">&#160;           top: 0;</p>
+<p class="Normal">&#160;           left: 0;</p>
+<p class="Normal">&#160;           width: 100%;</p>
+<p class="Normal">&#160;           height: 100%;</p>
+<p class="Normal">&#160;           background: linear-gradient(to bottom right, var(--primary-green), var(--accent-orange));</p>
+<p class="Normal">&#160;           opacity: 0.1;</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       .menu-content {</p>
+<p class="Normal">&#160;           padding: 1.5rem;</p>
+<p class="Normal">&#160;           text-align: center;</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       /* Contact/CTA Section */</p>
+<p class="Normal">&#160;       .contact-section {</p>
+<p class="Normal">&#160;           background-color: var(--primary-green);</p>
+<p class="Normal">&#160;           color: var(--white);</p>
+<p class="Normal">&#160;           border-radius: 10px;</p>
+<p class="Normal">&#160;           padding: 3rem;</p>
+<p class="Normal">&#160;           text-align: center;</p>
+<p class="Normal">&#160;           margin-top: 2rem;</p>
+<p class="Normal">&#160;           box-shadow: var(--shadow);</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       .contact-info {</p>
+<p class="Normal">&#160;           display: flex;</p>
+<p class="Normal">&#160;           justify-content: center;</p>
+<p class="Normal">&#160;           flex-wrap: wrap;</p>
+<p class="Normal">&#160;           gap: 2rem;</p>
+<p class="Normal">&#160;           margin-top: 1.5rem;</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       .contact-item {</p>
+<p class="Normal">&#160;           display: flex;</p>
+<p class="Normal">&#160;           align-items: center;</p>
+<p class="Normal">&#160;           gap: 0.8rem;</p>
+<p class="Normal">&#160;           font-size: 1.1rem;</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       .contact-icon {</p>
+<p class="Normal">&#160;           font-size: 1.5rem;</p>
+<p class="Normal">&#160;           color: var(--accent-orange);</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       /* WhatsApp Button */</p>
+<p class="Normal">&#160;       .whatsapp-btn {</p>
+<p class="Normal">&#160;           position: fixed;</p>
+<p class="Normal">&#160;           bottom: 2rem;</p>
+<p class="Normal">&#160;           right: 2rem;</p>
+<p class="Normal">&#160;           background-color: #25D366;</p>
+<p class="Normal">&#160;           color: var(--white);</p>
+<p class="Normal">&#160;           width: 60px;</p>
+<p class="Normal">&#160;           height: 60px;</p>
+<p class="Normal">&#160;           border-radius: 50%;</p>
+<p class="Normal">&#160;           display: flex;</p>
+<p class="Normal">&#160;           align-items: center;</p>
+<p class="Normal">&#160;           justify-content: center;</p>
+<p class="Normal">&#160;           text-decoration: none;</p>
+<p class="Normal">&#160;           font-size: 2rem;</p>
+<p class="Normal">&#160;           box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);</p>
+<p class="Normal">&#160;           z-index: 99;</p>
+<p class="Normal">&#160;           transition: all 0.3s ease;</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       .whatsapp-btn:hover {</p>
+<p class="Normal">&#160;           transform: scale(1.1);</p>
+<p class="Normal">&#160;           box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       /* Footer */</p>
+<p class="Normal">&#160;       footer {</p>
+<p class="Normal">&#160;           background-color: var(--primary-green);</p>
+<p class="Normal">&#160;           color: var(--white);</p>
+<p class="Normal">&#160;           text-align: center;</p>
+<p class="Normal">&#160;           padding: 2rem 1rem;</p>
+<p class="Normal">&#160;           margin-top: 3rem;</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       .footer-content {</p>
+<p class="Normal">&#160;           max-width: 1200px;</p>
+<p class="Normal">&#160;           margin: 0 auto;</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       .footer-links {</p>
+<p class="Normal">&#160;           display: flex;</p>
+<p class="Normal">&#160;           justify-content: center;</p>
+<p class="Normal">&#160;           flex-wrap: wrap;</p>
+<p class="Normal">&#160;           gap: 1.5rem;</p>
+<p class="Normal">&#160;           margin: 1.5rem 0;</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       .footer-links a {</p>
+<p class="Normal">&#160;           color: var(--white);</p>
+<p class="Normal">&#160;           text-decoration: none;</p>
+<p class="Normal">&#160;           transition: opacity 0.3s ease;</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       .footer-links a:hover {</p>
+<p class="Normal">&#160;           opacity: 0.8;</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       .copyright {</p>
+<p class="Normal">&#160;           margin-top: 1.5rem;</p>
+<p class="Normal">&#160;           padding-top: 1.5rem;</p>
+<p class="Normal">&#160;           border-top: 1px solid rgba(255, 255, 255, 0.2);</p>
+<p class="Normal">&#160;           font-size: 0.9rem;</p>
+<p class="Normal">&#160;           opacity: 0.9;</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       /* Testimonials */</p>
+<p class="Normal">&#160;       .testimonials {</p>
+<p class="Normal">&#160;           background-color: #f9f9f9;</p>
+<p class="Normal">&#160;           border-radius: 10px;</p>
+<p class="Normal">&#160;           padding: 2rem;</p>
+<p class="Normal">&#160;           margin-top: 2rem;</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       .testimonial-container {</p>
+<p class="Normal">&#160;           display: flex;</p>
+<p class="Normal">&#160;           overflow-x: auto;</p>
+<p class="Normal">&#160;           gap: 2rem;</p>
+<p class="Normal">&#160;           padding: 1rem 0;</p>
+<p class="Normal">&#160;           scrollbar-width: thin;</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       .testimonial-card {</p>
+<p class="Normal">&#160;           background-color: var(--white);</p>
+<p class="Normal">&#160;           padding: 1.5rem;</p>
+<p class="Normal">&#160;           border-radius: 10px;</p>
+<p class="Normal">&#160;           box-shadow: var(--shadow);</p>
+<p class="Normal">&#160;           min-width: 300px;</p>
+<p class="Normal">&#160;           flex-shrink: 0;</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       .testimonial-text {</p>
+<p class="Normal">&#160;           font-style: italic;</p>
+<p class="Normal">&#160;           margin-bottom: 1rem;</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       .testimonial-author {</p>
+<p class="Normal">&#160;           font-weight: bold;</p>
+<p class="Normal">&#160;           color: var(--primary-green);</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       /* Pricing Section */</p>
+<p class="Normal">&#160;       .pricing-container {</p>
+<p class="Normal">&#160;           display: grid;</p>
+<p class="Normal">&#160;           grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));</p>
+<p class="Normal">&#160;           gap: 1.5rem;</p>
+<p class="Normal">&#160;           margin-top: 2rem;</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       .pricing-card {</p>
+<p class="Normal">&#160;           background-color: var(--white);</p>
+<p class="Normal">&#160;           border-radius: 10px;</p>
+<p class="Normal">&#160;           padding: 2rem;</p>
+<p class="Normal">&#160;           text-align: center;</p>
+<p class="Normal">&#160;           box-shadow: var(--shadow);</p>
+<p class="Normal">&#160;           transition: all 0.3s ease;</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       .pricing-card:hover {</p>
+<p class="Normal">&#160;           transform: translateY(-5px);</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       .pricing-card.featured {</p>
+<p class="Normal">&#160;           border: 2px solid var(--accent-orange);</p>
+<p class="Normal">&#160;           position: relative;</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       .featured-badge {</p>
+<p class="Normal">&#160;           position: absolute;</p>
+<p class="Normal">&#160;           top: -12px;</p>
+<p class="Normal">&#160;           left: 50%;</p>
+<p class="Normal">&#160;           transform: translateX(-50%);</p>
+<p class="Normal">&#160;           background-color: var(--accent-orange);</p>
+<p class="Normal">&#160;           color: white;</p>
+<p class="Normal">&#160;           padding: 0.3rem 1rem;</p>
+<p class="Normal">&#160;           border-radius: 20px;</p>
+<p class="Normal">&#160;           font-size: 0.8rem;</p>
+<p class="Normal">&#160;           font-weight: bold;</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       .price {</p>
+<p class="Normal">&#160;           font-size: 2.5rem;</p>
+<p class="Normal">&#160;           color: var(--primary-green);</p>
+<p class="Normal">&#160;           margin: 1rem 0;</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       /* Responsive Design */</p>
+<p class="Normal">&#160;       @media (max-width: 768px) {</p>
+<p class="Normal">&#160;           .hero h1 {</p>
+<p class="Normal">&#160;               font-size: 2.2rem;</p>
+<p class="Normal">&#160;           }</p>
+<p class="Normal">&#160;           </p>
+<p class="Normal">&#160;           .hero p {</p>
+<p class="Normal">&#160;               font-size: 1.1rem;</p>
+<p class="Normal">&#160;           }</p>
+<p class="Normal">&#160;           </p>
+<p class="Normal">&#160;           section h2 {</p>
+<p class="Normal">&#160;               font-size: 1.8rem;</p>
+<p class="Normal">&#160;           }</p>
+<p class="Normal">&#160;           </p>
+<p class="Normal">&#160;           nav a {</p>
+<p class="Normal">&#160;               padding: 0.8rem 1rem;</p>
+<p class="Normal">&#160;               font-size: 0.95rem;</p>
+<p class="Normal">&#160;           }</p>
+<p class="Normal">&#160;           </p>
+<p class="Normal">&#160;           .contact-section {</p>
+<p class="Normal">&#160;               padding: 2rem 1rem;</p>
+<p class="Normal">&#160;           }</p>
+<p class="Normal">&#160;           </p>
+<p class="Normal">&#160;           .logo-container {</p>
+<p class="Normal">&#160;               flex-direction: column;</p>
+<p class="Normal">&#160;               text-align: center;</p>
+<p class="Normal">&#160;           }</p>
+<p class="Normal">&#160;           </p>
+<p class="Normal">&#160;           .logo {</p>
+<p class="Normal">&#160;               margin-right: 0;</p>
+<p class="Normal">&#160;               margin-bottom: 0.5rem;</p>
+<p class="Normal">&#160;           }</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       @media (max-width: 480px) {</p>
+<p class="Normal">&#160;           .hero {</p>
+<p class="Normal">&#160;               padding: 3rem 1rem;</p>
+<p class="Normal">&#160;           }</p>
+<p class="Normal">&#160;           </p>
+<p class="Normal">&#160;           .hero h1 {</p>
+<p class="Normal">&#160;               font-size: 1.8rem;</p>
+<p class="Normal">&#160;           }</p>
+<p class="Normal">&#160;           </p>
+<p class="Normal">&#160;           section {</p>
+<p class="Normal">&#160;               padding: 2rem 1rem;</p>
+<p class="Normal">&#160;           }</p>
+<p class="Normal">&#160;           </p>
+<p class="Normal">&#160;           .whatsapp-btn {</p>
+<p class="Normal">&#160;               width: 50px;</p>
+<p class="Normal">&#160;               height: 50px;</p>
+<p class="Normal">&#160;               font-size: 1.6rem;</p>
+<p class="Normal">&#160;               bottom: 1.5rem;</p>
+<p class="Normal">&#160;               right: 1.5rem;</p>
+<p class="Normal">&#160;           }</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;   &lt;/style&gt;</p>
+<p class="Normal">&lt;/head&gt;</p>
+<p class="Normal">&lt;body&gt;</p>
+<p class="Normal">&#160;   &lt;!-- Header with Logo --&gt;</p>
+<p class="Normal">&#160;   &lt;header&gt;</p>
+<p class="Normal">&#160;       &lt;div class=&quot;logo-container&quot;&gt;</p>
+<p class="Normal">&#160;           &lt;i class=&quot;fas fa-utensils logo&quot;&gt;&lt;/i&gt;</p>
+<p class="Normal">&#160;           &lt;div&gt;</p>
+<p class="Normal">&#160;               &lt;h1&gt;ANANT TIFFIN CENTER&lt;/h1&gt;</p>
+<p class="Normal">&#160;               &lt;p class=&quot;tagline&quot;&gt;Bundi, Rajasthan&lt;/p&gt;</p>
+<p class="Normal">&#160;           &lt;/div&gt;</p>
+<p class="Normal">&#160;       &lt;/div&gt;</p>
+<p class="Normal">&#160;   &lt;/header&gt;</p>
+<p class="Normal">&#160;   </p>
+<p class="Normal">&#160;   &lt;!-- Navigation --&gt;</p>
+<p class="Normal">&#160;   &lt;nav&gt;</p>
+<p class="Normal">&#160;       &lt;div class=&quot;nav-container&quot;&gt;</p>
+<p class="Normal">&#160;           &lt;a href=&quot;#home&quot;&gt;Home&lt;/a&gt;</p>
+<p class="Normal">&#160;           &lt;a href=&quot;#about&quot;&gt;About Us&lt;/a&gt;</p>
+<p class="Normal">&#160;           &lt;a href=&quot;#why&quot;&gt;Why Choose Us&lt;/a&gt;</p>
+<p class="Normal">&#160;           &lt;a href=&quot;#menu&quot;&gt;Menu&lt;/a&gt;</p>
+<p class="Normal">&#160;           &lt;a href=&quot;#pricing&quot;&gt;Pricing&lt;/a&gt;</p>
+<p class="Normal">&#160;           &lt;a href=&quot;#testimonials&quot;&gt;Testimonials&lt;/a&gt;</p>
+<p class="Normal">&#160;           &lt;a href=&quot;#contact&quot;&gt;Contact&lt;/a&gt;</p>
+<p class="Normal">&#160;       &lt;/div&gt;</p>
+<p class="Normal">&#160;   &lt;/nav&gt;</p>
+<p class="Normal">&#160;   </p>
+<p class="Normal">&#160;   &lt;!-- Hero Section --&gt;</p>
+<p class="Normal">&#160;   &lt;section id=&quot;home&quot; class=&quot;hero&quot;&gt;</p>
+<p class="Normal">&#160;       &lt;h1&gt;ANANT TIFFIN CENTER&lt;/h1&gt;</p>
+<p class="Normal">&#160;       &lt;p&gt;Home-like Taste, Fresh Food Daily&lt;/p&gt;</p>
+<p class="Normal">&#160;       &lt;p&gt;Healthy, Hygienic and Affordable Tiffin Service in Bundi&lt;/p&gt;</p>
+<p class="Normal">&#160;       &lt;p&gt;Experience homemade taste with the convenience of daily delivery&lt;/p&gt;</p>
+<p class="Normal">&#160;       &lt;a href=&quot;#contact&quot; class=&quot;hero-cta&quot;&gt;Order Now&lt;/a&gt;</p>
+<p class="Normal">&#160;   &lt;/section&gt;</p>
+<p class="Normal">&#160;   </p>
+<p class="Normal">&#160;   &lt;!-- About Us Section --&gt;</p>
+<p class="Normal">&#160;   &lt;section id=&quot;about&quot;&gt;</p>
+<p class="Normal">&#160;       &lt;h2&gt;About Us&lt;/h2&gt;</p>
+<p class="Normal">&#160;       &lt;div class=&quot;about-content&quot;&gt;</p>
+<p class="Normal">&#160;           &lt;div class=&quot;about-text&quot;&gt;</p>
+<p class="Normal">&#160;               &lt;p&gt;ANANT TIFFIN CENTER is a trusted tiffin service in Bundi that provides fresh, homemade food daily. Our focus is on hygiene, quality, and taste. Every tiffin is prepared with
+love and cleanliness so that you get the comfort of home food, whether you&#39;re at the office or in a hostel.&lt;/p&gt;</p>
+<p class="Normal">&#160;               &lt;p&gt;We started our service to provide healthy, homemade food to the residents of Bundi that would be beneficial for their health. Today, we are one of the trusted tiffin service
+providers in the city.&lt;/p&gt;</p>
+<p class="Normal">&#160;               &lt;p&gt;Our team consists of experienced cooks who prepare food in traditional ways, paying attention to both taste and nutrition.&lt;/p&gt;</p>
+<p class="Normal">&#160;           &lt;/div&gt;</p>
+<p class="Normal">&#160;           &lt;div class=&quot;about-image&quot;&gt;</p>
+<p class="Normal">&#160;               &lt;img src=&quot;https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=600&amp;q=80&quot; alt=&quot;Fresh Homemade Food&quot;&gt;</p>
+<p class="Normal">&#160;           &lt;/div&gt;</p>
+<p class="Normal">&#160;       &lt;/div&gt;</p>
+<p class="Normal">&#160;   &lt;/section&gt;</p>
+<p class="Normal">&#160;   </p>
+<p class="Normal">&#160;   &lt;!-- Why Choose Us Section --&gt;</p>
+<p class="Normal">&#160;   &lt;section id=&quot;why&quot;&gt;</p>
+<p class="Normal">&#160;       &lt;h2&gt;Why Choose Us&lt;/h2&gt;</p>
+<p class="Normal">&#160;       &lt;div class=&quot;features&quot;&gt;</p>
+<p class="Normal">&#160;           &lt;div class=&quot;feature-card&quot;&gt;</p>
+<p class="Normal">&#160;               &lt;i class=&quot;fas fa-leaf feature-icon&quot;&gt;&lt;/i&gt;</p>
+<p class="Normal">&#160;               &lt;h3&gt;Fresh &amp; Hygienic&lt;/h3&gt;</p>
+<p class="Normal">&#160;               &lt;p&gt;Food made from fresh ingredients daily, maintaining complete hygiene&lt;/p&gt;</p>
+<p class="Normal">&#160;           &lt;/div&gt;</p>
+<p class="Normal">&#160;           &lt;div class=&quot;feature-card&quot;&gt;</p>
+<p class="Normal">&#160;               &lt;i class=&quot;fas fa-home feature-icon&quot;&gt;&lt;/i&gt;</p>
+<p class="Normal">&#160;               &lt;h3&gt;Home-like Taste&lt;/h3&gt;</p>
+<p class="Normal">&#160;               &lt;p&gt;Authentic homemade taste that reminds you of home&lt;/p&gt;</p>
+<p class="Normal">&#160;           &lt;/div&gt;</p>
+<p class="Normal">&#160;           &lt;div class=&quot;feature-card&quot;&gt;</p>
+<p class="Normal">&#160;               &lt;i class=&quot;fas fa-rupee-sign feature-icon&quot;&gt;&lt;/i&gt;</p>
+<p class="Normal">&#160;               &lt;h3&gt;Affordable Pricing&lt;/h3&gt;</p>
+<p class="Normal">&#160;               &lt;p&gt;Prices that fit everyone&#39;s budget without compromising quality&lt;/p&gt;</p>
+<p class="Normal">&#160;           &lt;/div&gt;</p>
+<p class="Normal">&#160;           &lt;div class=&quot;feature-card&quot;&gt;</p>
+<p class="Normal">&#160;               &lt;i class=&quot;fas fa-clock feature-icon&quot;&gt;&lt;/i&gt;</p>
+<p class="Normal">&#160;               &lt;h3&gt;On-time Delivery&lt;/h3&gt;</p>
+<p class="Normal">&#160;               &lt;p&gt;Daily delivery to your home/office at fixed times&lt;/p&gt;</p>
+<p class="Normal">&#160;           &lt;/div&gt;</p>
+<p class="Normal">&#160;           &lt;div class=&quot;feature-card&quot;&gt;</p>
+<p class="Normal">&#160;               &lt;i class=&quot;fas fa-heart feature-icon&quot;&gt;&lt;/i&gt;</p>
+<p class="Normal">&#160;               &lt;h3&gt;Veg Homemade Meals&lt;/h3&gt;</p>
+<p class="Normal">&#160;               &lt;p&gt;Pure vegetarian food prepared with love and care&lt;/p&gt;</p>
+<p class="Normal">&#160;           &lt;/div&gt;</p>
+<p class="Normal">&#160;           &lt;div class=&quot;feature-card&quot;&gt;</p>
+<p class="Normal">&#160;               &lt;i class=&quot;fas fa-users feature-icon&quot;&gt;&lt;/i&gt;</p>
+<p class="Normal">&#160;               &lt;h3&gt;Local Trusted Service&lt;/h3&gt;</p>
+<p class="Normal">&#160;               &lt;p&gt;Bundi&#39;s own tiffin service, standing on your trust&lt;/p&gt;</p>
+<p class="Normal">&#160;           &lt;/div&gt;</p>
+<p class="Normal">&#160;       &lt;/div&gt;</p>
+<p class="Normal">&#160;   &lt;/section&gt;</p>
+<p class="Normal">&#160;   </p>
+<p class="Normal">&#160;   &lt;!-- Menu Section --&gt;</p>
+<p class="Normal">&#160;   &lt;section id=&quot;menu&quot;&gt;</p>
+<p class="Normal">&#160;       &lt;h2&gt;Our Daily Menu&lt;/h2&gt;</p>
+<p class="Normal">&#160;       &lt;div class=&quot;menu-container&quot;&gt;</p>
+<p class="Normal">&#160;           &lt;div class=&quot;menu-card&quot;&gt;</p>
+<p class="Normal">&#160;               &lt;div class=&quot;menu-img&quot;&gt;</p>
+<p class="Normal">&#160;                   &lt;i class=&quot;fas fa-carrot&quot; style=&quot;font-size: 3rem; color: var(--primary-green);&quot;&gt;&lt;/i&gt;</p>
+<p class="Normal">&#160;               &lt;/div&gt;</p>
+<p class="Normal">&#160;               &lt;div class=&quot;menu-content&quot;&gt;</p>
+<p class="Normal">&#160;                   &lt;h3&gt;Daily Special Vegetable&lt;/h3&gt;</p>
+<p class="Normal">&#160;                   &lt;p&gt;Seasonal vegetables cooked with traditional spices&lt;/p&gt;</p>
+<p class="Normal">&#160;               &lt;/div&gt;</p>
+<p class="Normal">&#160;           &lt;/div&gt;</p>
+<p class="Normal">&#160;           &lt;div class=&quot;menu-card&quot;&gt;</p>
+<p class="Normal">&#160;               &lt;div class=&quot;menu-img&quot;&gt;</p>
+<p class="Normal">&#160;                   &lt;i class=&quot;fas fa-mortar-pestle&quot; style=&quot;font-size: 3rem; color: var(--primary-green);&quot;&gt;&lt;/i&gt;</p>
+<p class="Normal">&#160;               &lt;/div&gt;</p>
+<p class="Normal">&#160;               &lt;div class=&quot;menu-content&quot;&gt;</p>
+<p class="Normal">&#160;                   &lt;h3&gt;Dal / Curry&lt;/h3&gt;</p>
+<p class="Normal">&#160;                   &lt;p&gt;Nutritious lentil preparations with authentic flavors&lt;/p&gt;</p>
+<p class="Normal">&#160;               &lt;/div&gt;</p>
+<p class="Normal">&#160;           &lt;/div&gt;</p>
+<p class="Normal">&#160;           &lt;div class=&quot;menu-card&quot;&gt;</p>
+<p class="Normal">&#160;               &lt;div class=&quot;menu-img&quot;&gt;</p>
+<p class="Normal">&#160;                   &lt;i class=&quot;fas fa-utensil-spoon&quot; style=&quot;font-size: 3rem; color: var(--primary-green);&quot;&gt;&lt;/i&gt;</p>
+<p class="Normal">&#160;               &lt;/div&gt;</p>
+<p class="Normal">&#160;               &lt;div class=&quot;menu-content&quot;&gt;</p>
+<p class="Normal">&#160;                   &lt;h3&gt;Rice / Pulao&lt;/h3&gt;</p>
+<p class="Normal">&#160;                   &lt;p&gt;Steamed rice or flavorful pulao to complete your meal&lt;/p&gt;</p>
+<p class="Normal">&#160;               &lt;/div&gt;</p>
+<p class="Normal">&#160;           &lt;/div&gt;</p>
+<p class="Normal">&#160;           &lt;div class=&quot;menu-card&quot;&gt;</p>
+<p class="Normal">&#160;               &lt;div class=&quot;menu-img&quot;&gt;</p>
+<p class="Normal">&#160;                   &lt;i class=&quot;fas fa-bread-slice&quot; style=&quot;font-size: 3rem; color: var(--primary-green);&quot;&gt;&lt;/i&gt;</p>
+<p class="Normal">&#160;               &lt;/div&gt;</p>
+<p class="Normal">&#160;               &lt;div class=&quot;menu-content&quot;&gt;</p>
+<p class="Normal">&#160;                   &lt;h3&gt;Roti / Chapati&lt;/h3&gt;</p>
+<p class="Normal">&#160;                   &lt;p&gt;Freshly made whole wheat rotis, soft and healthy&lt;/p&gt;</p>
+<p class="Normal">&#160;               &lt;/div&gt;</p>
+<p class="Normal">&#160;           &lt;/div&gt;</p>
+<p class="Normal">&#160;           &lt;div class=&quot;menu-card&quot;&gt;</p>
+<p class="Normal">&#160;               &lt;div class=&quot;menu-img&quot;&gt;</p>
+<p class="Normal">&#160;                   &lt;i class=&quot;fas fa-apple-alt&quot; style=&quot;font-size: 3rem; color: var(--primary-green);&quot;&gt;&lt;/i&gt;</p>
+<p class="Normal">&#160;               &lt;/div&gt;</p>
+<p class="Normal">&#160;               &lt;div class=&quot;menu-content&quot;&gt;</p>
+<p class="Normal">&#160;                   &lt;h3&gt;Salad &amp; Chutney&lt;/h3&gt;</p>
+<p class="Normal">&#160;                   &lt;p&gt;Fresh salad and homemade chutneys for added nutrition&lt;/p&gt;</p>
+<p class="Normal">&#160;               &lt;/div&gt;</p>
+<p class="Normal">&#160;           &lt;/div&gt;</p>
+<p class="Normal">&#160;           &lt;div class=&quot;menu-card&quot;&gt;</p>
+<p class="Normal">&#160;               &lt;div class=&quot;menu-img&quot;&gt;</p>
+<p class="Normal">&#160;                   &lt;i class=&quot;fas fa-star&quot; style=&quot;font-size: 3rem; color: var(--primary-green);&quot;&gt;&lt;/i&gt;</p>
+<p class="Normal">&#160;               &lt;/div&gt;</p>
+<p class="Normal">&#160;               &lt;div class=&quot;menu-content&quot;&gt;</p>
+<p class="Normal">&#160;                   &lt;h3&gt;Special Items&lt;/h3&gt;</p>
+<p class="Normal">&#160;                   &lt;p&gt;Weekly special dishes for variety in your meals&lt;/p&gt;</p>
+<p class="Normal">&#160;               &lt;/div&gt;</p>
+<p class="Normal">&#160;           &lt;/div&gt;</p>
+<p class="Normal">&#160;       &lt;/div&gt;</p>
+<p class="Normal">&#160;   &lt;/section&gt;</p>
+<p class="Normal">&#160;   </p>
+<p class="Normal">&#160;   &lt;!-- Pricing Section --&gt;</p>
+<p class="Normal">&#160;   &lt;section id=&quot;pricing&quot;&gt;</p>
+<p class="Normal">&#160;       &lt;h2&gt;Our Pricing Plans&lt;/h2&gt;</p>
+<p class="Normal">&#160;       &lt;div class=&quot;pricing-container&quot;&gt;</p>
+<p class="Normal">&#160;           &lt;div class=&quot;pricing-card&quot;&gt;</p>
+<p class="Normal">&#160;               &lt;h3&gt;Weekly Plan&lt;/h3&gt;</p>
+<p class="Normal">&#160;               &lt;div class=&quot;price&quot;&gt;&#8377; 700&lt;span style=&quot;font-size: 1rem;&quot;&gt;/week&lt;/span&gt;&lt;/div&gt;</p>
+<p class="Normal">&#160;               &lt;p&gt;7 days of delicious meals&lt;/p&gt;</p>
+<p class="Normal">&#160;               &lt;p&gt;Daily delivery&lt;/p&gt;</p>
+<p class="Normal">&#160;               &lt;p&gt;2 Rotis + Sabzi + Dal + Rice&lt;/p&gt;</p>
+<p class="Normal">&#160;               &lt;p&gt;Free salad &amp; chutney&lt;/p&gt;</p>
+<p class="Normal">&#160;           &lt;/div&gt;</p>
+<p class="Normal">&#160;           </p>
+<p class="Normal">&#160;           &lt;div class=&quot;pricing-card featured&quot;&gt;</p>
+<p class="Normal">&#160;               &lt;div class=&quot;featured-badge&quot;&gt;MOST POPULAR&lt;/div&gt;</p>
+<p class="Normal">&#160;               &lt;h3&gt;Monthly Plan&lt;/h3&gt;</p>
+<p class="Normal">&#160;               &lt;div class=&quot;price&quot;&gt;&#8377; 2500&lt;span style=&quot;font-size: 1rem;&quot;&gt;/month&lt;/span&gt;&lt;/div&gt;</p>
+<p class="Normal">&#160;               &lt;p&gt;30 days of delicious meals&lt;/p&gt;</p>
+<p class="Normal">&#160;               &lt;p&gt;Daily delivery&lt;/p&gt;</p>
+<p class="Normal">&#160;               &lt;p&gt;2 Rotis + Sabzi + Dal + Rice&lt;/p&gt;</p>
+<p class="Normal">&#160;               &lt;p&gt;Free salad &amp; chutney&lt;/p&gt;</p>
+<p class="Normal">&#160;               &lt;p&gt;Special dishes on weekends&lt;/p&gt;</p>
+<p class="Normal">&#160;           &lt;/div&gt;</p>
+<p class="Normal">&#160;           </p>
+<p class="Normal">&#160;           &lt;div class=&quot;pricing-card&quot;&gt;</p>
+<p class="Normal">&#160;               &lt;h3&gt;One-time Trial&lt;/h3&gt;</p>
+<p class="Normal">&#160;               &lt;div class=&quot;price&quot;&gt;&#8377; 120&lt;span style=&quot;font-size: 1rem;&quot;&gt;/day&lt;/span&gt;&lt;/div&gt;</p>
+<p class="Normal">&#160;               &lt;p&gt;Try our service&lt;/p&gt;</p>
+<p class="Normal">&#160;               &lt;p&gt;Single day delivery&lt;/p&gt;</p>
+<p class="Normal">&#160;               &lt;p&gt;2 Rotis + Sabzi + Dal + Rice&lt;/p&gt;</p>
+<p class="Normal">&#160;               &lt;p&gt;Free salad &amp; chutney&lt;/p&gt;</p>
+<p class="Normal">&#160;               &lt;p&gt;No commitment&lt;/p&gt;</p>
+<p class="Normal">&#160;           &lt;/div&gt;</p>
+<p class="Normal">&#160;       &lt;/div&gt;</p>
+<p class="Normal">&#160;   &lt;/section&gt;</p>
+<p class="Normal">&#160;   </p>
+<p class="Normal">&#160;   &lt;!-- Testimonials Section --&gt;</p>
+<p class="Normal">&#160;   &lt;section id=&quot;testimonials&quot;&gt;</p>
+<p class="Normal">&#160;       &lt;h2&gt;Customer Testimonials&lt;/h2&gt;</p>
+<p class="Normal">&#160;       &lt;div class=&quot;testimonials&quot;&gt;</p>
+<p class="Normal">&#160;           &lt;div class=&quot;testimonial-container&quot;&gt;</p>
+<p class="Normal">&#160;               &lt;div class=&quot;testimonial-card&quot;&gt;</p>
+<p class="Normal">&#160;                   &lt;p class=&quot;testimonial-text&quot;&gt;&quot;The food from ANANT TIFFIN CENTER tastes just like home. As a working professional, I don&#39;t have time to cook, and their service
+has been a lifesaver. Highly recommended!&quot;&lt;/p&gt;</p>
+<p class="Normal">&#160;                   &lt;p class=&quot;testimonial-author&quot;&gt;- Ramesh Sharma, Bundi&lt;/p&gt;</p>
+<p class="Normal">&#160;               &lt;/div&gt;</p>
+<p class="Normal">&#160;               &lt;div class=&quot;testimonial-card&quot;&gt;</p>
+<p class="Normal">&#160;                   &lt;p class=&quot;testimonial-text&quot;&gt;&quot;I&#39;ve been using their monthly plan for 6 months now. The food is always fresh, hygienic, and delicious. The delivery is always
+on time. Great service!&quot;&lt;/p&gt;</p>
+<p class="Normal">&#160;                   &lt;p class=&quot;testimonial-author&quot;&gt;- Priya Mehta, Bundi&lt;/p&gt;</p>
+<p class="Normal">&#160;               &lt;/div&gt;</p>
+<p class="Normal">&#160;               &lt;div class=&quot;testimonial-card&quot;&gt;</p>
+<p class="Normal">&#160;                   &lt;p class=&quot;testimonial-text&quot;&gt;&quot;As a student living in a hostel, I missed homemade food. ANANT TIFFIN CENTER has been amazing. Affordable, tasty, and healthy food
+delivered daily.&quot;&lt;/p&gt;</p>
+<p class="Normal">&#160;                   &lt;p class=&quot;testimonial-author&quot;&gt;- Amit Kumar, Student&lt;/p&gt;</p>
+<p class="Normal">&#160;               &lt;/div&gt;</p>
+<p class="Normal">&#160;           &lt;/div&gt;</p>
+<p class="Normal">&#160;       &lt;/div&gt;</p>
+<p class="Normal">&#160;   &lt;/section&gt;</p>
+<p class="Normal">&#160;   </p>
+<p class="Normal">&#160;   &lt;!-- Contact Section --&gt;</p>
+<p class="Normal">&#160;   &lt;section id=&quot;contact&quot;&gt;</p>
+<p class="Normal">&#160;       &lt;h2&gt;Order Your Tiffin Today&lt;/h2&gt;</p>
+<p class="Normal">&#160;       &lt;div class=&quot;contact-section&quot;&gt;</p>
+<p class="Normal">&#160;           &lt;p&gt;Order your tiffin today. Fresh food, healthy life.&lt;/p&gt;</p>
+<p class="Normal">&#160;           &lt;p&gt;Experience the comfort of homemade food delivered to your doorstep daily.&lt;/p&gt;</p>
+<p class="Normal">&#160;           </p>
+<p class="Normal">&#160;           &lt;div class=&quot;contact-info&quot;&gt;</p>
+<p class="Normal">&#160;               &lt;div class=&quot;contact-item&quot;&gt;</p>
+<p class="Normal">&#160;                   &lt;i class=&quot;fas fa-phone-alt contact-icon&quot;&gt;&lt;/i&gt;</p>
+<p class="Normal">&#160;                   &lt;div&gt;</p>
+<p class="Normal">&#160;                       &lt;strong&gt;Call Us&lt;/strong&gt;</p>
+<p class="Normal">&#160;                       &lt;p&gt;6378005086&lt;/p&gt;</p>
+<p class="Normal">&#160;                   &lt;/div&gt;</p>
+<p class="Normal">&#160;               &lt;/div&gt;</p>
+<p class="Normal">&#160;               &lt;div class=&quot;contact-item&quot;&gt;</p>
+<p class="Normal">&#160;                   &lt;i class=&quot;fab fa-whatsapp contact-icon&quot;&gt;&lt;/i&gt;</p>
+<p class="Normal">&#160;                   &lt;div&gt;</p>
+<p class="Normal">&#160;                       &lt;strong&gt;WhatsApp&lt;/strong&gt;</p>
+<p class="Normal">&#160;                       &lt;p&gt;6378005086&lt;/p&gt;</p>
+<p class="Normal">&#160;                   &lt;/div&gt;</p>
+<p class="Normal">&#160;               &lt;/div&gt;</p>
+<p class="Normal">&#160;               &lt;div class=&quot;contact-item&quot;&gt;</p>
+<p class="Normal">&#160;                   &lt;i class=&quot;fas fa-map-marker-alt contact-icon&quot;&gt;&lt;/i&gt;</p>
+<p class="Normal">&#160;                   &lt;div&gt;</p>
+<p class="Normal">&#160;                       &lt;strong&gt;Location&lt;/strong&gt;</p>
+<p class="Normal">&#160;                       &lt;p&gt;Bundi, Rajasthan&lt;/p&gt;</p>
+<p class="Normal">&#160;                   &lt;/div&gt;</p>
+<p class="Normal">&#160;               &lt;/div&gt;</p>
+<p class="Normal">&#160;           &lt;/div&gt;</p>
+<p class="Normal">&#160;           </p>
+<p class="Normal">&#160;           &lt;p style=&quot;margin-top: 1.5rem; font-size: 1.1rem;&quot;&gt;Monthly and weekly subscription plans available at discounted rates!&lt;/p&gt;</p>
+<p class="Normal">&#160;       &lt;/div&gt;</p>
+<p class="Normal">&#160;   &lt;/section&gt;</p>
+<p class="Normal">&#160;   </p>
+<p class="Normal">&#160;   &lt;!-- WhatsApp Button --&gt;</p>
+<p class="Normal">&#160;   &lt;a href=&quot;https://wa.me/916378005086&quot; class=&quot;whatsapp-btn&quot; target=&quot;_blank&quot; title=&quot;WhatsApp us&quot;&gt;</p>
+<p class="Normal">&#160;       &lt;i class=&quot;fab fa-whatsapp&quot;&gt;&lt;/i&gt;</p>
+<p class="Normal">&#160;   &lt;/a&gt;</p>
+<p class="Normal">&#160;   </p>
+<p class="Normal">&#160;   &lt;!-- Footer --&gt;</p>
+<p class="Normal">&#160;   &lt;footer&gt;</p>
+<p class="Normal">&#160;       &lt;div class=&quot;footer-content&quot;&gt;</p>
+<p class="Normal">&#160;           &lt;h3&gt;ANANT TIFFIN CENTER&lt;/h3&gt;</p>
+<p class="Normal">&#160;           &lt;p&gt;Bundi, Rajasthan - Home-like Taste, Fresh Food Daily&lt;/p&gt;</p>
+<p class="Normal">&#160;           </p>
+<p class="Normal">&#160;           &lt;div class=&quot;footer-links&quot;&gt;</p>
+<p class="Normal">&#160;               &lt;a href=&quot;#home&quot;&gt;Home&lt;/a&gt;</p>
+<p class="Normal">&#160;               &lt;a href=&quot;#about&quot;&gt;About&lt;/a&gt;</p>
+<p class="Normal">&#160;               &lt;a href=&quot;#menu&quot;&gt;Menu&lt;/a&gt;</p>
+<p class="Normal">&#160;               &lt;a href=&quot;#pricing&quot;&gt;Pricing&lt;/a&gt;</p>
+<p class="Normal">&#160;               &lt;a href=&quot;#contact&quot;&gt;Contact&lt;/a&gt;</p>
+<p class="Normal">&#160;           &lt;/div&gt;</p>
+<p class="Normal">&#160;           </p>
+<p class="Normal">&#160;           &lt;div class=&quot;copyright&quot;&gt;</p>
+<p class="Normal">&#160;               &lt;p&gt;&amp;copy; 2023 ANANT TIFFIN CENTER. All rights reserved.&lt;/p&gt;</p>
+<p class="Normal">&#160;               &lt;p&gt;Made with &#10084;&#65039; for the people of Bundi&lt;/p&gt;</p>
+<p class="Normal">&#160;           &lt;/div&gt;</p>
+<p class="Normal">&#160;       &lt;/div&gt;</p>
+<p class="Normal">&#160;   &lt;/footer&gt;</p>
+<p class="Normal">&#160;</p>
+<p class="Normal">&#160;   &lt;script&gt;</p>
+<p class="Normal">&#160;       // Smooth scrolling for navigation links</p>
+<p class="Normal">&#160;       document.querySelectorAll(&#39;nav a&#39;).forEach(anchor =&gt; {</p>
+<p class="Normal">&#160;           anchor.addEventListener(&#39;click&#39;, function(e) {</p>
+<p class="Normal">&#160;               e.preventDefault();</p>
+<p class="Normal">&#160;               const targetId = this.getAttribute(&#39;href&#39;);</p>
+<p class="Normal">&#160;               const targetSection = document.querySelector(targetId);</p>
+<p class="Normal">&#160;               </p>
+<p class="Normal">&#160;               window.scrollTo({</p>
+<p class="Normal">&#160;                   top: targetSection.offsetTop - 70,</p>
+<p class="Normal">&#160;                   behavior: &#39;smooth&#39;</p>
+<p class="Normal">&#160;               });</p>
+<p class="Normal">&#160;           });</p>
+<p class="Normal">&#160;       });</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       // Animation for elements on scroll</p>
+<p class="Normal">&#160;       const observerOptions = {</p>
+<p class="Normal">&#160;           threshold: 0.1,</p>
+<p class="Normal">&#160;           rootMargin: &#39;0px 0px -50px 0px&#39;</p>
+<p class="Normal">&#160;       };</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       const observer = new IntersectionObserver(function(entries) {</p>
+<p class="Normal">&#160;           entries.forEach(entry =&gt; {</p>
+<p class="Normal">&#160;               if (entry.isIntersecting) {</p>
+<p class="Normal">&#160;                   entry.target.style.opacity = &#39;1&#39;;</p>
+<p class="Normal">&#160;                   entry.target.style.transform = &#39;translateY(0)&#39;;</p>
+<p class="Normal">&#160;               }</p>
+<p class="Normal">&#160;           });</p>
+<p class="Normal">&#160;       }, observerOptions);</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       // Observe feature cards, menu cards, and pricing cards</p>
+<p class="Normal">&#160;       document.querySelectorAll(&#39;.feature-card, .menu-card, .pricing-card, .testimonial-card&#39;).forEach(card =&gt; {</p>
+<p class="Normal">&#160;           card.style.opacity = &#39;0&#39;;</p>
+<p class="Normal">&#160;           card.style.transform = &#39;translateY(20px)&#39;;</p>
+<p class="Normal">&#160;           card.style.transition = &#39;opacity 0.5s ease, transform 0.5s ease&#39;;</p>
+<p class="Normal">&#160;           observer.observe(card);</p>
+<p class="Normal">&#160;       });</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       // Auto-scroll testimonials</p>
+<p class="Normal">&#160;       const testimonialContainer = document.querySelector(&#39;.testimonial-container&#39;);</p>
+<p class="Normal">&#160;       if (testimonialContainer) {</p>
+<p class="Normal">&#160;           let scrollAmount = 0;</p>
+<p class="Normal">&#160;           const scrollStep = 1;</p>
+<p class="Normal">&#160;           const scrollDelay = 30;</p>
+<p class="Normal">&#160;           </p>
+<p class="Normal">&#160;           function autoScrollTestimonials() {</p>
+<p class="Normal">&#160;               if (scrollAmount &gt;= testimonialContainer.scrollWidth - testimonialContainer.clientWidth) {</p>
+<p class="Normal">&#160;                   scrollAmount = 0;</p>
+<p class="Normal">&#160;               } else {</p>
+<p class="Normal">&#160;                   scrollAmount += scrollStep;</p>
+<p class="Normal">&#160;               }</p>
+<p class="Normal">&#160;               testimonialContainer.scrollLeft = scrollAmount;</p>
+<p class="Normal">&#160;               setTimeout(autoScrollTestimonials, scrollDelay);</p>
+<p class="Normal">&#160;           }</p>
+<p class="Normal">&#160;           </p>
+<p class="Normal">&#160;           // Start auto-scroll after page loads</p>
+<p class="Normal">&#160;           setTimeout(autoScrollTestimonials, 2000);</p>
+<p class="Normal">&#160;           </p>
+<p class="Normal">&#160;           // Pause auto-scroll on hover</p>
+<p class="Normal">&#160;           testimonialContainer.addEventListener(&#39;mouseenter&#39;, () =&gt; {</p>
+<p class="Normal">&#160;               testimonialContainer.style.scrollBehavior = &#39;auto&#39;;</p>
+<p class="Normal">&#160;           });</p>
+<p class="Normal">&#160;           </p>
+<p class="Normal">&#160;           testimonialContainer.addEventListener(&#39;mouseleave&#39;, () =&gt; {</p>
+<p class="Normal">&#160;               testimonialContainer.style.scrollBehavior = &#39;smooth&#39;;</p>
+<p class="Normal">&#160;           });</p>
+<p class="Normal">&#160;       }</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       // WhatsApp button click event</p>
+<p class="Normal">&#160;       document.querySelector(&#39;.whatsapp-btn&#39;).addEventListener(&#39;click&#39;, function() {</p>
+<p class="Normal">&#160;           alert(&#39;Redirecting to ANANT TIFFIN CENTER WhatsApp...&#39;);</p>
+<p class="Normal">&#160;       });</p>
+<p class="Normal">&#160;       </p>
+<p class="Normal">&#160;       // Hero CTA button click event</p>
+<p class="Normal">&#160;       document.querySelector(&#39;.hero-cta&#39;).addEventListener(&#39;click&#39;, function(e) {</p>
+<p class="Normal">&#160;           e.preventDefault();</p>
+<p class="Normal">&#160;           document.querySelector(&#39;#contact&#39;).scrollIntoView({</p>
+<p class="Normal">&#160;               behavior: &#39;smooth&#39;</p>
+<p class="Normal">&#160;           });</p>
+<p class="Normal">&#160;       });</p>
+<p class="Normal">&#160;   &lt;/script&gt;</p>
+<p class="Normal">&lt;/body&gt;</p>
+<p class="Normal">&lt;/html&gt;Sss</p>
+</body>
+</html>
